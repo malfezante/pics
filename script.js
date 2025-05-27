@@ -2,11 +2,13 @@ function checkPassword() {
   const input = document.getElementById('password').value;
   const message = document.getElementById('message');
 
-  const correctPassword = "Puckissocute:3"; 
+  const correctPassword = "secret123"; // ← change ce mot de passe
 
   if (input === correctPassword) {
-    window.location.href = "secret.html"; // ← Le nom de la page secrète (si tu changes le nom du fichier)
+    window.location.href = "secret.html";
   } else {
-    message.textContent = "wrong"; // 
+    message.textContent = "wrong";
   }
 }
+
+
