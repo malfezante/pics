@@ -5,9 +5,9 @@ function checkPassword() {
   const correctPassword = "Puckissocute:3"; // 
 
   if (input === correctPassword) {
-    window.location.href = "secret.html";
+    window.location.href = "secret.html"; // 
   } else {
-    message.textContent = "wrong";
+    message.textContent = "wrong"; // 
   }
 }
 
